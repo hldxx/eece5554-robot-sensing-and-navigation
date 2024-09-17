@@ -1,0 +1,10 @@
+to run this code
+first copy the beginner_tutorials folder into your /src folder and then do catkin_make
+then source ./devel/setup.bash
+roscore
+rosrun beginner_tutorials publisher.py
+rosrun beginner_tutorials subscriber.py   
+rosrun beginner_tutorials server.py 
+rosrun beginner_tutorials client.py
+
+in the src folder I attached 2 screenshots that the code running on my computer.
